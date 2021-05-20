@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    width: 50vh;
+    height: 50vh;
+    border: 1px blue solid;
+  }
+
+.container2 {
+    width: 50vh;
+    height: 50vh;
+    border: 1px red solid;
+  }
+
+.item {
+    width: 25%;
+    height: 25%;
+    border: 1px black solid;
+  }
