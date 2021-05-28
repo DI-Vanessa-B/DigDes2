@@ -1,0 +1,19 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 100vw;
+    height: 100vh;
+    border: 1px red solid;
+}
+
+.right {
+    width: 100vw;
+    height: 100vh;
+    border: 1px blue solid;
+    transform: scaleX(-1);
+}

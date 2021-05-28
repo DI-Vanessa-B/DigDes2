@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/testcss.css">
+
+</style>
+</head>
+
+<body>
+
+<div class="contianer">
+    <div class="BoxStyle" id="Box1" onscroll="Box2.scrollTop=(Box2.scrollHeight-this.scrollTop);">box 1
+    <div class="content">end box 1</div>
+    </div>
+    <div class="BoxStyle" id="Box2" onscroll="Box1.scrollTop=(Box1.scrollHeight-this.scrollTop);">box 2
+    <div class="content">end box 2</div>
+    </div>
+</div>
+</body>
+</html>
