@@ -81,8 +81,8 @@ img {
 
 .mybutton {
     opacity: 0;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: rgba(36, 44, 63,0);
     border: 3px white solid;
     border-radius: 50%;
@@ -120,3 +120,29 @@ img {
     opacity: 1;
 }
 
+@media screen and (min-width: 375px) {
+    .frage {
+        opacity: 0;
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        font-size: 1em;
+        color: white;
+        /*background: rgba(36, 44, 63);*/
+        position: fixed;
+        width: 60vw;
+        display: flex;
+        justify-content:center;
+        height: 7vh;
+        top: 0;
+        padding-top: 3vh;
+        padding-right: 25%;
+        padding-left: 20%;
+        z-index: 100;
+        margin: 0 auto;
+        transition: all .5s ease-in-out;
+    }
+
+    .show {
+        opacity: 1;
+    }
+}
